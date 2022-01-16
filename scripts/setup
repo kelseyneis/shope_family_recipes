@@ -1,0 +1,2 @@
+# run this script in your shell after executing `pipenv shell` (might not be necessary)
+export $(grep -v '^#' .env | xargs -0)
